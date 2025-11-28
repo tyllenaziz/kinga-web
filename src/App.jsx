@@ -55,6 +55,7 @@ function App() {
       <div className="container" style={{maxWidth: '400px', marginTop: '100px'}}>
         <div className="card">
           <h2 style={{color: '#1b5e20', textAlign: 'center'}}>Kinga Admin</h2>
+          <h2 style={{color: '#1b5e20', textAlign: 'center'}}>Kindly log in with your Kinga app email and password</h2>
           <form onSubmit={handleLogin}>
             <label>Email Address</label>
             <input type="email" value={email} onChange={e => setEmail(e.target.value)} required />
